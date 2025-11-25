@@ -13,10 +13,10 @@ int validCard(long long card_number){
         temp = temp / 10;
     }
     
-    //Initialize an store_digitay to store the digits of the number
+    //Initialize an storedigitay to store the digits of the number
     int store_digit[count_digit];
 
-    //Add digits of the number to the store_digitay
+    //Add digits of the number to the storedigitay
     for(int i = count_digit - 1; i >= 0; i--){
         store_digit[i] = card_number % 10;
         card_number = card_number / 10;
