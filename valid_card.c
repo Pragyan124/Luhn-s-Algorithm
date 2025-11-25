@@ -2,7 +2,7 @@
 
 /* Luhn's Algorithm Implementation to check if a credit card  number  is valid*/
 
-int validCard(long long card_number){
+int valid_card(long long card_number){
 
     long long temp = card_number;
     int count_digit = 0; 
@@ -46,7 +46,7 @@ int validCard(long long card_number){
 }
 
 int main(){
-    int result = validCard(4830859599038301);
+    int result = valid_card(4830859599038301);
     printf("Result: %d\n", result);
     
 }
